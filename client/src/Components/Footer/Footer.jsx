@@ -31,7 +31,7 @@ function Footer() {
         <div className='contact'>
             <span>
                 <PhoneIcon />
-                0900 900 900
+                0900 000 0000
             </span>
             <span>
                 <EmailIcon />
