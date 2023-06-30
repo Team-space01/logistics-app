@@ -1,0 +1,88 @@
+.signup{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: rgb(233, 239, 239);
+}
+
+.signup .signup_container{
+    height: 600px;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup .signup_container h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.signup .signup_container form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup .signup_container .signup_profile{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.signup .signup_container .avatar,
+.signup .signup_container.profilePic{
+    width: 80px;
+    height: 80px;
+}
+
+.signup .signup_container form label{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.signup .signup_container form input{
+    width: 100%;
+    height: 40px;
+    background: white;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.signup .signup_container form button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background: #9900ff;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.signup .signup_container form button:hover{
+    background: #9900ffaf;
+}
+
+.signup .signup_container p{
+    margin-top: auto;
+    color: black;
+}
+
+.signup .signup_container .link{
+    text-decoration: none;
+    color: inherit;
+}
