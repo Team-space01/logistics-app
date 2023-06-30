@@ -1,7 +1,8 @@
 import axios from 'axios'
 import jwt_decode from 'jwt-decode'
 
-axios.defaults.baseURL = 'http://localhost:9000'
+axios.defaults.baseURL = 'https://logistics-app-y14i.onrender.com'
+//'http://localhost:9000'
 
 /**Make API Request */
 

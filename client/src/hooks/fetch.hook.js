@@ -2,7 +2,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { getEmail } from '../helpers/helper'
 
-axios.defaults.baseURL = 'http://localhost:9000'
+axios.defaults.baseURL = 'https://logistics-app-y14i.onrender.com'
+//'http://localhost:9000'
 
 /**Custom Hooks */
 export default function useFetch(query){

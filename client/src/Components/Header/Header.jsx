@@ -36,7 +36,7 @@ function Header({handleScroll, ref2, ref1, ref3}) {
                     <div className="flexCenter h-menu"
                         style={getMenuStyles(menuOpen)}
                         >
-                        <Link to='/home'>Residencies</Link>
+                        <Link>Home</Link>
                         <Link  onClick={() => handleScroll(ref1)}>Our Value</Link>
                         <Link onClick={() => handleScroll(ref2)} >Contact Us</Link>
                         <Link to='/login' >Login</Link>
