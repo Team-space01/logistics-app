@@ -241,6 +241,10 @@
 }
 
 @media (max-width: 768px) {
+    .dashboard{
+        width: 100vw;
+    }
+
     .dashboard-menu-icon{
         display: block;
         cursor: pointer;

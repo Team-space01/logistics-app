@@ -9,6 +9,8 @@ import PasswordReset from './Components/PasswordReset/PasswordReset';
 import Dashboard from './Page/Dashboard/Dashboard';
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 
+
+
 /**Auth middleware */
 import { AuthorizeUser,ProtectRoute } from './middleware/auth'
 
